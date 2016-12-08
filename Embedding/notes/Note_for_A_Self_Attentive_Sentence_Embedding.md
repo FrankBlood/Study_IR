@@ -1,5 +1,5 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-# 18. A Self-Attentive Sentence Embedding
+# A Self-Attentive Sentence Embedding
 **一个自注意力的句子嵌入表达 by Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou & Yoshua Bengio for ICLR 2017**
 
 ## 摘要

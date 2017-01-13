@@ -35,12 +35,12 @@ This paper proposes a character-aware attention residual network to generate sen
   ![sentence-representation](ICLR-2017-for-NLP/sentence-representation.png)
   Using different weights for every vector of matirx and attention mechanism to enrich the sentence representation.
     * attention mechanism shown as below.
-  ![attention-mechanism](ICLR-2017-for-NLP/attention-mechanis.png)
+  ![attention-mechanism](ICLR-2017-for-NLP/attention-mechanism.png)
     $g\(q\_i\)=Tanh\(W\_{qh}q\_i+b\_{qh}\)$
     $s\_i=\\frac{exp\(g\(q\_i\)\)}{\\sum\_n\_w^{j=i}exp\(g\(q\_j\)\)}, \\hat q\_i=s\_iq\_i$
     * convolution operations on $Q$ with n-grams.
   * Residual Network for Refining Sentence Representation: shown as below:
-  ![residual-network](ICLR-2017-for-NLP/residual-network.pngi)
+  ![residual-network](ICLR-2017-for-NLP/residual-network.png)
   That is one kind of convolution network. But I konw nothing about the residual.-\_-|| So let it go.:)
 
 * Experiments: The model outperforms stat-of-the-art models on a few short-text datasets.
